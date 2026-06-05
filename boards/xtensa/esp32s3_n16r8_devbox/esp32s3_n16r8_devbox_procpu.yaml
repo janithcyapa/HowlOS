@@ -1,0 +1,15 @@
+identifier: esp32s3_n16r8_devbox/esp32s3/procpu
+name: ESP32-S3 N16R8 Dev Box PROCPU
+type: mcu
+arch: xtensa
+toolchain:
+  - zephyr
+supported:
+  - gpio
+  - uart
+  - i2c
+  - spi
+  - watchdog
+  - entropy
+  - netif:wifi
+vendor: custom

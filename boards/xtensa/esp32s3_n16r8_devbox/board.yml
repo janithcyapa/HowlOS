@@ -1,0 +1,6 @@
+board:
+  name: esp32s3_n16r8_devbox
+  full_name: ESP32-S3 N16R8 Dev Box
+  vendor: custom
+  socs:
+    - name: esp32s3

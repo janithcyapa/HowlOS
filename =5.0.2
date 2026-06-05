@@ -1,0 +1,37 @@
+Collecting esptool
+  Using cached esptool-5.3.0.tar.gz (487 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: bitstring!=4.2.0,>=3.1.6 in /home/jazz/zephyrproject/.venv/lib64/python3.12/site-packages (from esptool) (4.4.0)
+Requirement already satisfied: cryptography>=43.0.0 in /home/jazz/zephyrproject/.venv/lib64/python3.12/site-packages (from esptool) (46.0.7)
+Requirement already satisfied: pyserial>=3.3 in /home/jazz/zephyrproject/.venv/lib64/python3.12/site-packages (from esptool) (3.5)
+Collecting reedsolo<1.8,>=1.5.3 (from esptool)
+  Using cached reedsolo-1.7.0-py3-none-any.whl.metadata (23 kB)
+Requirement already satisfied: PyYAML>=5.1 in /home/jazz/zephyrproject/.venv/lib64/python3.12/site-packages (from esptool) (6.0.3)
+Requirement already satisfied: intelhex in /home/jazz/zephyrproject/.venv/lib64/python3.12/site-packages (from esptool) (2.3.0)
+Collecting rich_click<2 (from esptool)
+  Using cached rich_click-1.9.8-py3-none-any.whl.metadata (8.7 kB)
+Requirement already satisfied: click<9 in /home/jazz/zephyrproject/.venv/lib64/python3.12/site-packages (from esptool) (8.3.3)
+Requirement already satisfied: rich>=12 in /home/jazz/zephyrproject/.venv/lib64/python3.12/site-packages (from rich_click<2->esptool) (15.0.0)
+Requirement already satisfied: bitarray<4.0,>=3.0.0 in /home/jazz/zephyrproject/.venv/lib64/python3.12/site-packages (from bitstring!=4.2.0,>=3.1.6->esptool) (3.8.1)
+Requirement already satisfied: tibs<0.6,>=0.5.6 in /home/jazz/zephyrproject/.venv/lib64/python3.12/site-packages (from bitstring!=4.2.0,>=3.1.6->esptool) (0.5.7)
+Requirement already satisfied: cffi>=2.0.0 in /home/jazz/zephyrproject/.venv/lib64/python3.12/site-packages (from cryptography>=43.0.0->esptool) (2.0.0)
+Requirement already satisfied: pycparser in /home/jazz/zephyrproject/.venv/lib64/python3.12/site-packages (from cffi>=2.0.0->cryptography>=43.0.0->esptool) (3.0)
+Requirement already satisfied: markdown-it-py>=2.2.0 in /home/jazz/zephyrproject/.venv/lib64/python3.12/site-packages (from rich>=12->rich_click<2->esptool) (4.2.0)
+Requirement already satisfied: pygments<3.0.0,>=2.13.0 in /home/jazz/zephyrproject/.venv/lib64/python3.12/site-packages (from rich>=12->rich_click<2->esptool) (2.20.0)
+Requirement already satisfied: mdurl~=0.1 in /home/jazz/zephyrproject/.venv/lib64/python3.12/site-packages (from markdown-it-py>=2.2.0->rich>=12->rich_click<2->esptool) (0.1.2)
+Using cached reedsolo-1.7.0-py3-none-any.whl (32 kB)
+Using cached rich_click-1.9.8-py3-none-any.whl (72 kB)
+Building wheels for collected packages: esptool
+  Building wheel for esptool (pyproject.toml): started
+  Building wheel for esptool (pyproject.toml): finished with status 'done'
+  Created wheel for esptool: filename=esptool-5.3.0-py3-none-any.whl size=612322 sha256=56a36f52c2b59a94c4c7765d5a68e62e9827a3bef43d41db84acc52060dc86aa
+  Stored in directory: /home/jazz/.cache/pip/wheels/7e/4f/7c/46acc0a30b9593c46781f5a0dc3a8c8b3fae2dd0316d2c8724
+Successfully built esptool
+Installing collected packages: reedsolo, rich_click, esptool
+
+Successfully installed esptool-5.3.0 reedsolo-1.7.0 rich_click-1.9.8

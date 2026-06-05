@@ -7,5 +7,14 @@
         "--header-insertion=never",
         "--query-driver=/home/jazz/.zephyr_ide/toolchains/**/*"
     ],
-    "cmake.configureOnOpen": false
+    "cmake.configureOnOpen": false,
+    "json.schemas": [
+        {
+            "fileMatch": [
+                "zephyr-ide.json",
+                "**/zephyr-ide.json"
+            ],
+            "url": "file:///home/jazz/.antigravity-ide/extensions/mylonics.zephyr-ide-3.3.5/resources/zephyr-ide-schema.json"
+        }
+    ]
 }

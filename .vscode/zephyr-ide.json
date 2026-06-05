@@ -19,6 +19,22 @@
             "config": [],
             "overlay": []
           }
+        },
+        "build/esp32s3_n16r8_devbox/esp32s3/procpu": {
+          "relBoardDir": "boards",
+          "relBoardSubDir": "xtensa/esp32s3_n16r8_devbox",
+          "board": "esp32s3_n16r8_devbox/esp32s3/procpu",
+          "name": "build/esp32s3_n16r8_devbox/esp32s3/procpu",
+          "debugOptimization": "Debug",
+          "westBuildArgs": [],
+          "westBuildCMakeArgs": [
+            "-DCONFIG_DEBUG_OPTIMIZATIONS=y",
+            "-DCONFIG_DEBUG_THREAD_INFO=y"
+          ],
+          "confFiles": {
+            "config": [],
+            "overlay": []
+          }
         }
       },
       "twisterConfigs": {},
@@ -30,7 +46,7 @@
   },
   "runnerProfiles": [
     {
-      "name": "ST-LinkV2",
+      "name": "Auto",
       "flash": {
         "kind": "auto"
       },
