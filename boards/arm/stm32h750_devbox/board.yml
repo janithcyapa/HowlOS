@@ -1,0 +1,6 @@
+board:
+  name: stm32h750_devbox
+  full_name: STM32H750VBT6 Dev Box
+  vendor: custom
+  socs:
+    - name: stm32h750xx

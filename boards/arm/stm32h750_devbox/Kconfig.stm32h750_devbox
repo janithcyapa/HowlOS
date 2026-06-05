@@ -1,0 +1,4 @@
+# SPDX-License-Identifier: Apache-2.0
+
+config BOARD_STM32H750_DEVBOX
+	select SOC_STM32H750XX

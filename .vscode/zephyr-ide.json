@@ -4,11 +4,11 @@
       "rel_path": "",
       "name": "HowlOS",
       "buildConfigs": {
-        "build/fk750m1_vbt6/stm32h750xx": {
+        "build/stm32h750_devbox/stm32h750xx": {
           "relBoardDir": "boards",
-          "relBoardSubDir": "../../../../zephyrproject/external/zephyr/boards/fanke/fk750m1_vbt6",
-          "board": "fk750m1_vbt6/stm32h750xx",
-          "name": "build/fk750m1_vbt6/stm32h750xx",
+          "relBoardSubDir": "arm/stm32h750_devbox",
+          "board": "stm32h750_devbox/stm32h750xx",
+          "name": "build/stm32h750_devbox/stm32h750xx",
           "debugOptimization": "Debug",
           "westBuildArgs": [],
           "westBuildCMakeArgs": [

@@ -1,0 +1,13 @@
+identifier: stm32h750_devbox
+name: STM32H750VBT6 Dev Box
+type: mcu
+arch: arm
+toolchain:
+  - zephyr
+  - gnuarmemb
+ram: 1024
+flash: 128
+supported:
+  - gpio
+  - uart
+vendor: custom
