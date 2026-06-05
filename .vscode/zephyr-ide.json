@@ -56,6 +56,21 @@
       "attach": {
         "kind": "auto"
       }
+    },
+    {
+      "name": "STM",
+      "flash": {
+        "kind": "west-flash",
+        "runner": "openocd"
+      },
+      "debug": {
+        "kind": "west-debug",
+        "runner": "stm32cubeprogrammer"
+      },
+      "attach": {
+        "kind": "west-debug",
+        "runner": "stm32cubeprogrammer"
+      }
     }
   ]
 }
